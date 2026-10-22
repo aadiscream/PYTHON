@@ -1,0 +1,12 @@
+num=(1,2,3,4)
+temp= list(num)
+print(temp)
+temp.append(4)
+print(temp)
+temp.pop(2)
+print(temp)
+temp[2]=45
+print(temp)
+num=tuple(temp)
+print(num)
+print(len(num))

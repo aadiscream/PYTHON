@@ -1,0 +1,5 @@
+print("hello \n",5,"aditya")
+print(2*3)
+print(4/2, 6/3)
+print(3/2)
+print("bye")
