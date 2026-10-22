@@ -1,0 +1,8 @@
+from win32com.client import Dispatch
+import time
+
+voice = Dispatch("Sapi.SpVoice")
+while True:
+    print("Please Drink Water Aditya")
+    voice.speak("Please Drink Water Aditya")
+    time.sleep(5)
